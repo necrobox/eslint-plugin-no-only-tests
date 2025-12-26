@@ -51,5 +51,3 @@ $ npm install @necrobox/eslint-plugin-no-only-tests --save-dev
 Потому мы включаем в нашем [ESLint-конфиге](https://github.com/funbox/eslint-config) этот плагин, и он проверяет,
 не используется ли метод `only` в файлах с тестами. А сам линтер запускаем с помощью прекоммит-хука,
 тем самым блокируя возможность коммита в случае наличия `only` в кодовой базе.
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)

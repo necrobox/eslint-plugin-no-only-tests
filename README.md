@@ -52,5 +52,3 @@ However, such filters should not be in the repo when the project is running on C
 So, we add this rule to our [ESLint config](https://github.com/funbox/eslint-config) to check the existence of `only`
 in the tests files. And we run linter using precommit-hook, which make it possible to prevent committing
 when `only` does exist in the code.
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
