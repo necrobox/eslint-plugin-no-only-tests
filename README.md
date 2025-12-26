@@ -1,6 +1,6 @@
-# @funboxteam/eslint-plugin-no-only-tests
+# @necrobox/eslint-plugin-no-only-tests
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/eslint-plugin-no-only-tests.svg)](https://www.npmjs.com/package/@funboxteam/eslint-plugin-no-only-tests)
+[![npm](https://img.shields.io/npm/v/@necrobox/eslint-plugin-no-only-tests.svg)](https://www.npmjs.com/package/@necrobox/eslint-plugin-no-only-tests)
 
 Disallow the use of `describe.only()` and `it.only()`.
 
@@ -26,18 +26,18 @@ $ npm i eslint --save-dev
 Next, install the plugin:
 
 ```
-$ npm install @funboxteam/eslint-plugin-no-only-tests --save-dev
+$ npm install @necrobox/eslint-plugin-no-only-tests --save-dev
 ```
 
 ## Usage
 
-Add `@funboxteam/eslint-plugin-no-only-tests` to the `plugins` section of your `.eslintrc` configuration file. 
+Add `@necrobox/eslint-plugin-no-only-tests` to the `plugins` section of your `.eslintrc` configuration file. 
 You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
   "plugins": [
-    "@funboxteam/no-only-tests"
+    "@necrobox/no-only-tests"
   ]
 }
 ```
@@ -48,7 +48,7 @@ Then configure the rule under the `rules` section.
 ```json
 {
   "rules": {
-    "@funboxteam/no-only-tests/no-only": 2
+    "@necrobox/no-only-tests/no-only": 2
   }
 }
 ```
