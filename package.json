@@ -1,6 +1,6 @@
 {
-  "name": "@funboxteam/eslint-plugin-no-only-tests",
-  "version": "5.0.0",
+  "name": "@necrobox/eslint-plugin-no-only-tests",
+  "version": "6.0.0",
   "description": "Disallow the use of describe.only() and it.only()",
   "keywords": [
     "eslint",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/funbox/eslint-plugin-no-only-tests"
+    "url": "https://github.com/necrobox/eslint-plugin-no-only-tests"
   },
   "files": [
     "lib/"
@@ -19,12 +19,11 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --cache --ext .js ./",
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi",
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
-    "@funboxteam/eslint-config": "7.3.0",
+    "@necrobox/eslint-config": "8.0.0",
     "eslint": "7.32.0",
-    "mocha": "9.2.2"
+    "mocha": "10.8.2"
   }
 }

@@ -1,5 +1,10 @@
 # Migration
 
+## 5.0.0 → 6.0.0
+
+Use `@necrobox/eslint-plugin-no-only-tests` instead of `@funboxteam/eslint-plugin-no-only-tests`.
+
+
 ## 4.0.1 → 5.0.0
 
 We've dropped Node.js 12 support, which means that de jure this plugin does not work with Node.js 12.

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@funboxteam/eslint-config/tests',
+  extends: '@necrobox/eslint-config/tests',
 };
