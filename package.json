@@ -22,7 +22,7 @@
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
-    "@necrobox/eslint-config": "8.0.0",
+    "@necrobox/eslint-config": "9.0.0",
     "eslint": "7.32.0",
     "mocha": "10.8.2"
   }
