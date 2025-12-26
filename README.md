@@ -49,6 +49,6 @@ Then configure the rule under the `rules` section.
 When developers fix tests they may make the process easier by filtering tests using method `only` on `it` & `describe`.
 
 However, such filters should not be in the repo when the project is running on CI.
-So, we add this rule to our [ESLint config](https://github.com/funbox/eslint-config) to check the existence of `only`
+So, we add this rule to our [ESLint config](https://github.com/necrobox/eslint-config) to check the existence of `only`
 in the tests files. And we run linter using precommit-hook, which make it possible to prevent committing
 when `only` does exist in the code.
