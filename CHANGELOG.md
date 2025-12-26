@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.0.0 (26.12.2025)
+
+Moved package from @funboxteam to @necrobox scope.
+
+Ensured Node.js 20, 22 & 24 support.
+
+
 ## 5.0.0 (19.05.2023)
 
 Dropped Node.js 12 support.
